@@ -10,21 +10,21 @@ This project aims to provide a practical introduction to Solidity programming by
 
 ## Requirements
 
-To successfully complete this project, your contract should meet the following requirements:
+To successfully complete this project, our contract should meet the following requirements:
 
 1. **Public Variables**:
-   - `token_Name`: The name of your token.
-   - `token_Abbrv`: The abbreviation or symbol for your token.
-   - `total_Supply`: The total supply of your token.
+   - `token_Name`: The name of our token.
+   - `token_Abbrv`: The abbreviation or symbol for our token.
+   - `total_Supply`: The total supply of our token.
 
 2. **Mapping of Balances**:
    - `balances`: A mapping of addresses to token balances.
 
 3. **Mint Function**:
-   - `mint(address recipient_address, uint tokenAmount)`: This function increases the total supply by the specified number and increases the balance of the recipient address by that amount.
+   - `mint(address recipient_address, uint tokenAmount)`: This function increases the total supply by the specified number and increases the balance at the recipient address by that amount.
 
 4. **Burn Function**:
-   - `burn(address Owner_address, uint burnTokens)`: This function decreases the total supply and the balance of the owner address by the specified number of tokens.
+   - `burn(address Owner_address, uint burnTokens)`: This function decreases the total supply and the balance at the owner address by the specified number of tokens.
 
    Note: The function should include conditionals to ensure the balance of the account is greater than or equal to the amount to be burned.
 
